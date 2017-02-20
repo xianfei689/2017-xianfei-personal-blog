@@ -6,4 +6,10 @@
 
 - Node.js: `v6.2.0`
 - MongoDB: `3.2.10`
-- Express: `4.14.1`
+- Express: `3.2.4`
+
+
+##Connect  MongoDB&& show On Page        ===          step 2    ### xianfei   @2017/2/20
+
+连接MongoDB数据库, 展示web页面,联调通过!
+
