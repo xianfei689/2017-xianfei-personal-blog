@@ -5,8 +5,11 @@ var PostModel = require('../models/posts');
 var CommentModel = require('../models/comments');
 var checkLogin = require('../middlewares/check').checkLogin;
 
+
+
+
 // GET /posts 所有用户或者特定用户的文章页
-//   eg: GET /posts?author=xxx
+  // eg: GET /posts?author=xxx
 router.get('/', function(req, res, next) {
   var author = req.query.author;
 
